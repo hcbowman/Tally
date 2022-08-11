@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55E324CE28A48CFF007F1215 /* Tally Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 55E324CD28A48CFF007F1215 /* Tally Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		55E324D328A48CFF007F1215 /* TallyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E324D228A48CFF007F1215 /* TallyApp.swift */; };
+		55E324D528A48CFF007F1215 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E324D428A48CFF007F1215 /* ContentView.swift */; };
+		55E324D728A48D00007F1215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E324D628A48D00007F1215 /* Assets.xcassets */; };
+		55E324DA28A48D00007F1215 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E324D928A48D00007F1215 /* Preview Assets.xcassets */; };
+		55E324E428A48D00007F1215 /* Tally_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E324E328A48D00007F1215 /* Tally_Watch_AppTests.swift */; };
+		55E324EE28A48D00007F1215 /* Tally_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E324ED28A48D00007F1215 /* Tally_Watch_AppUITests.swift */; };
+		55E324F028A48D00007F1215 /* Tally_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E324EF28A48D00007F1215 /* Tally_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55E324CF28A48CFF007F1215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E324C128A48CFF007F1215 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E324CC28A48CFF007F1215;
+			remoteInfo = "Tally Watch App";
+		};
+		55E324E028A48D00007F1215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E324C128A48CFF007F1215 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E324CC28A48CFF007F1215;
+			remoteInfo = "Tally Watch App";
+		};
+		55E324EA28A48D00007F1215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E324C128A48CFF007F1215 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E324CC28A48CFF007F1215;
+			remoteInfo = "Tally Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		55E324F628A48D00007F1215 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				55E324CE28A48CFF007F1215 /* Tally Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		55E324C728A48CFF007F1215 /* Tally.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tally.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E324CD28A48CFF007F1215 /* Tally Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tally Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E324D228A48CFF007F1215 /* TallyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyApp.swift; sourceTree = "<group>"; };
+		55E324D428A48CFF007F1215 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		55E324D628A48D00007F1215 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55E324D928A48D00007F1215 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55E324DF28A48D00007F1215 /* Tally Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tally Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E324E328A48D00007F1215 /* Tally_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tally_Watch_AppTests.swift; sourceTree = "<group>"; };
+		55E324E928A48D00007F1215 /* Tally Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tally Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E324ED28A48D00007F1215 /* Tally_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tally_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		55E324EF28A48D00007F1215 /* Tally_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tally_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55E324CA28A48CFF007F1215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E324DC28A48D00007F1215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E324E628A48D00007F1215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55E324C028A48CFF007F1215 = {
+			isa = PBXGroup;
+			children = (
+				55E324D128A48CFF007F1215 /* Tally Watch App */,
+				55E324E228A48D00007F1215 /* Tally Watch AppTests */,
+				55E324EC28A48D00007F1215 /* Tally Watch AppUITests */,
+				55E324C828A48CFF007F1215 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55E324C828A48CFF007F1215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55E324C728A48CFF007F1215 /* Tally.app */,
+				55E324CD28A48CFF007F1215 /* Tally Watch App.app */,
+				55E324DF28A48D00007F1215 /* Tally Watch AppTests.xctest */,
+				55E324E928A48D00007F1215 /* Tally Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55E324D128A48CFF007F1215 /* Tally Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				55E324D228A48CFF007F1215 /* TallyApp.swift */,
+				55E324D428A48CFF007F1215 /* ContentView.swift */,
+				55E324D628A48D00007F1215 /* Assets.xcassets */,
+				55E324D828A48D00007F1215 /* Preview Content */,
+			);
+			path = "Tally Watch App";
+			sourceTree = "<group>";
+		};
+		55E324D828A48D00007F1215 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				55E324D928A48D00007F1215 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55E324E228A48D00007F1215 /* Tally Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				55E324E328A48D00007F1215 /* Tally_Watch_AppTests.swift */,
+			);
+			path = "Tally Watch AppTests";
+			sourceTree = "<group>";
+		};
+		55E324EC28A48D00007F1215 /* Tally Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55E324ED28A48D00007F1215 /* Tally_Watch_AppUITests.swift */,
+				55E324EF28A48D00007F1215 /* Tally_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Tally Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55E324C628A48CFF007F1215 /* Tally */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E324F728A48D00007F1215 /* Build configuration list for PBXNativeTarget "Tally" */;
+			buildPhases = (
+				55E324C528A48CFF007F1215 /* Resources */,
+				55E324F628A48D00007F1215 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E324D028A48CFF007F1215 /* PBXTargetDependency */,
+			);
+			name = Tally;
+			productName = Tally;
+			productReference = 55E324C728A48CFF007F1215 /* Tally.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		55E324CC28A48CFF007F1215 /* Tally Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E324F328A48D00007F1215 /* Build configuration list for PBXNativeTarget "Tally Watch App" */;
+			buildPhases = (
+				55E324C928A48CFF007F1215 /* Sources */,
+				55E324CA28A48CFF007F1215 /* Frameworks */,
+				55E324CB28A48CFF007F1215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tally Watch App";
+			productName = "Tally Watch App";
+			productReference = 55E324CD28A48CFF007F1215 /* Tally Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55E324DE28A48D00007F1215 /* Tally Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E324FA28A48D00007F1215 /* Build configuration list for PBXNativeTarget "Tally Watch AppTests" */;
+			buildPhases = (
+				55E324DB28A48D00007F1215 /* Sources */,
+				55E324DC28A48D00007F1215 /* Frameworks */,
+				55E324DD28A48D00007F1215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E324E128A48D00007F1215 /* PBXTargetDependency */,
+			);
+			name = "Tally Watch AppTests";
+			productName = "Tally Watch AppTests";
+			productReference = 55E324DF28A48D00007F1215 /* Tally Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55E324E828A48D00007F1215 /* Tally Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E324FD28A48D00007F1215 /* Build configuration list for PBXNativeTarget "Tally Watch AppUITests" */;
+			buildPhases = (
+				55E324E528A48D00007F1215 /* Sources */,
+				55E324E628A48D00007F1215 /* Frameworks */,
+				55E324E728A48D00007F1215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E324EB28A48D00007F1215 /* PBXTargetDependency */,
+			);
+			name = "Tally Watch AppUITests";
+			productName = "Tally Watch AppUITests";
+			productReference = 55E324E928A48D00007F1215 /* Tally Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55E324C128A48CFF007F1215 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					55E324C628A48CFF007F1215 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					55E324CC28A48CFF007F1215 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					55E324DE28A48D00007F1215 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 55E324CC28A48CFF007F1215;
+					};
+					55E324E828A48D00007F1215 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 55E324CC28A48CFF007F1215;
+					};
+				};
+			};
+			buildConfigurationList = 55E324C428A48CFF007F1215 /* Build configuration list for PBXProject "Tally" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55E324C028A48CFF007F1215;
+			productRefGroup = 55E324C828A48CFF007F1215 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55E324C628A48CFF007F1215 /* Tally */,
+				55E324CC28A48CFF007F1215 /* Tally Watch App */,
+				55E324DE28A48D00007F1215 /* Tally Watch AppTests */,
+				55E324E828A48D00007F1215 /* Tally Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55E324C528A48CFF007F1215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E324CB28A48CFF007F1215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E324DA28A48D00007F1215 /* Preview Assets.xcassets in Resources */,
+				55E324D728A48D00007F1215 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E324DD28A48D00007F1215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E324E728A48D00007F1215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55E324C928A48CFF007F1215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E324D528A48CFF007F1215 /* ContentView.swift in Sources */,
+				55E324D328A48CFF007F1215 /* TallyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E324DB28A48D00007F1215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E324E428A48D00007F1215 /* Tally_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E324E528A48D00007F1215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E324EE28A48D00007F1215 /* Tally_Watch_AppUITests.swift in Sources */,
+				55E324F028A48D00007F1215 /* Tally_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55E324D028A48CFF007F1215 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E324CC28A48CFF007F1215 /* Tally Watch App */;
+			targetProxy = 55E324CF28A48CFF007F1215 /* PBXContainerItemProxy */;
+		};
+		55E324E128A48D00007F1215 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E324CC28A48CFF007F1215 /* Tally Watch App */;
+			targetProxy = 55E324E028A48D00007F1215 /* PBXContainerItemProxy */;
+		};
+		55E324EB28A48D00007F1215 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E324CC28A48CFF007F1215 /* Tally Watch App */;
+			targetProxy = 55E324EA28A48D00007F1215 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		55E324F128A48D00007F1215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55E324F228A48D00007F1215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		55E324F428A48D00007F1215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tally Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = F3MQX39TPJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Tally;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hbowman.Tally.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		55E324F528A48D00007F1215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tally Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = F3MQX39TPJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Tally;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hbowman.Tally.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		55E324F828A48D00007F1215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3MQX39TPJ;
+				INFOPLIST_KEY_CFBundleDisplayName = Tally;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hbowman.Tally;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		55E324F928A48D00007F1215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3MQX39TPJ;
+				INFOPLIST_KEY_CFBundleDisplayName = Tally;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hbowman.Tally;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55E324FB28A48D00007F1215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3MQX39TPJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hbowman.Tally-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tally Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tally Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		55E324FC28A48D00007F1215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3MQX39TPJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hbowman.Tally-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tally Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tally Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		55E324FE28A48D00007F1215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3MQX39TPJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hbowman.Tally-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Tally Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		55E324FF28A48D00007F1215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F3MQX39TPJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hbowman.Tally-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Tally Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55E324C428A48CFF007F1215 /* Build configuration list for PBXProject "Tally" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E324F128A48D00007F1215 /* Debug */,
+				55E324F228A48D00007F1215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E324F328A48D00007F1215 /* Build configuration list for PBXNativeTarget "Tally Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E324F428A48D00007F1215 /* Debug */,
+				55E324F528A48D00007F1215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E324F728A48D00007F1215 /* Build configuration list for PBXNativeTarget "Tally" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E324F828A48D00007F1215 /* Debug */,
+				55E324F928A48D00007F1215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E324FA28A48D00007F1215 /* Build configuration list for PBXNativeTarget "Tally Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E324FB28A48D00007F1215 /* Debug */,
+				55E324FC28A48D00007F1215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E324FD28A48D00007F1215 /* Build configuration list for PBXNativeTarget "Tally Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E324FE28A48D00007F1215 /* Debug */,
+				55E324FF28A48D00007F1215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55E324C128A48CFF007F1215 /* Project object */;
+}
