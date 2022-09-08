@@ -3,7 +3,6 @@
 //  Tally Watch App
 //
 //  Created by Hunter Bowman on 8/10/22.
-//
 
 import SwiftUI
 
