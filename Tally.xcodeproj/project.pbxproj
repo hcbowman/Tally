@@ -17,9 +17,6 @@
 		55E324E428A48D00007F1215 /* Tally_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E324E328A48D00007F1215 /* Tally_Watch_AppTests.swift */; };
 		55E324EE28A48D00007F1215 /* Tally_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E324ED28A48D00007F1215 /* Tally_Watch_AppUITests.swift */; };
 		55E324F028A48D00007F1215 /* Tally_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E324EF28A48D00007F1215 /* Tally_Watch_AppUITestsLaunchTests.swift */; };
-		55E3250228A48D2C007F1215 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E3250128A48D2C007F1215 /* Item.swift */; };
-		55E3250428A490CA007F1215 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E3250328A490CA007F1215 /* Event.swift */; };
-		55E3250828A55F02007F1215 /* log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E3250728A55F02007F1215 /* log.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,9 +71,6 @@
 		55E324E928A48D00007F1215 /* Tally Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tally Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55E324ED28A48D00007F1215 /* Tally_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tally_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		55E324EF28A48D00007F1215 /* Tally_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tally_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		55E3250128A48D2C007F1215 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		55E3250328A490CA007F1215 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
-		55E3250728A55F02007F1215 /* log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = log.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,9 +159,6 @@
 		55E3250028A48D0D007F1215 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				55E3250128A48D2C007F1215 /* Item.swift */,
-				55E3250328A490CA007F1215 /* Event.swift */,
-				55E3250728A55F02007F1215 /* log.swift */,
 				558CEC6C28A5C2BC00005168 /* Tally.xcdatamodeld */,
 				55D5733228A834AC00AF1AD0 /* DataController.swift */,
 			);
@@ -333,10 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55D5733328A834AC00AF1AD0 /* DataController.swift in Sources */,
-				55E3250828A55F02007F1215 /* log.swift in Sources */,
-				55E3250428A490CA007F1215 /* Event.swift in Sources */,
 				55E324D528A48CFF007F1215 /* ContentView.swift in Sources */,
-				55E3250228A48D2C007F1215 /* Item.swift in Sources */,
 				558CEC6E28A5C2BC00005168 /* Tally.xcdatamodeld in Sources */,
 				55E324D328A48CFF007F1215 /* TallyApp.swift in Sources */,
 			);
@@ -562,7 +550,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbowman.Tally;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -578,7 +570,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbowman.Tally;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
